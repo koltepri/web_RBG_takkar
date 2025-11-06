@@ -19,7 +19,7 @@ var blue = 0;
 var inc = 20;
 
 function updateBackgroundColor() {
-  colorA.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`; // Goggla RBG ef þið kannist ekki við það
+  colorA.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`; // Breyta CSS gildum
   rbgText.textContent = `RBG (${red}, ${green}, ${blue})`; // ATH ` í stað fyrir ""
 }
 

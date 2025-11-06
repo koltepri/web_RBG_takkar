@@ -7,11 +7,6 @@ options:
 
 - Hæ :)
 
-## Þið kunnið
-
-1. Að búa til vefsíðu með HTML og CSS
-2. Grunnforritun í Javascript
-
 ---
 
 # Planið í dag
@@ -22,11 +17,10 @@ options:
    2. Útfærsla
 3. Skoða vefsíður/kóðann hjá öðrum
 
----
+## Þið kunnið
 
-# Hópaskipting
-
-- Forritunarpar (e. Pair programming)
+1. Að búa til vefsíðu með HTML og CSS
+2. Grunnforritun í Javascript
 
 ---
 
@@ -100,6 +94,16 @@ blueB.addEventListener("click", function () {
 </script>
 ```
 
+```Javascript
+    event => {
+        // kóði
+    }
+
+    function(event) {
+        // kóði
+    }
+```
+
 ---
 
 # Key Events
@@ -129,3 +133,37 @@ blueB.addEventListener("click", function () {
 - Músahrefing
 - Lyklaborðið
 - og meira
+
+---
+
+# Hópaskipting
+
+- Forritunarpar (e. Pair programming)
+  - að forrita : sjá um útfærsluna
+    - passa að leiðbeinandinn skilur
+  - að leiðbeina : fara yfir : plana næstu skref
+    - Spurja, ekki skipa fyrir
+
+- Hugsa upphátt
+- Virða hlutverkin, ekki taka lyklaborðið af manneskjunni að forrita
+  - Skiptum á c.a korters fresti ( ég held utan um tímann )
+- Be nice
+
+---
+
+# Dæmi af verkefni
+
+- https://github.com/koltepri/web_RBG_takkar
+  - glærurnar eru líka hérna
+
+---
+
+# Skoða hjá hinum hópunum
+
+- Virkni
+- Skemmtilegt
+- Skýrt / Auðskiljanlegt?
+  - breytunöfnin
+- Athugasemdir(e. comments), of mikið?, of lítið?
+
+- https://tinyurl.com/58xdyrxm (sameiginlegt docs skjal)
