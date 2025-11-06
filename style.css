@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 4px;
+  font-size: 22px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fr = fraction | skiptum í þrennt*/
+  grid-template-rows: 1fr 5fr 2fr;
+  grid-template-areas:
+    "header header header"
+    "color-area color-area color-area"
+    "red-button green-button blue-button";
+  height: 100vh; /* Nota allt svæðið vh = viewport height */
+}
+
+.color-area {
+  grid-area: color-area;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+#color-text {
+  display: grid;
+  place-items: center;
+  color: yellow;
+}
+
+#red-button {
+  background-color: red;
+}
+
+#blue-button {
+  background-color: blue;
+}
+
+#green-button {
+  background-color: green;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+  background-color: yellow;
+  padding: 1rem;
+}
