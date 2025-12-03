@@ -23,9 +23,25 @@ function updateBackgroundColor() {
   rbgText.textContent = `RBG (${red}, ${green}, ${blue})`; // ATH ` í stað fyrir ""
 }
 
+function addNewItem() {
+  const newItem = document.createElement("div");
+
+  newItem.className = "new-item";
+  newItem.textContent =
+    "New Item " + (document.querySelectorAll(".new-item").length + 1);
+
+  const container = document.getElementById("container");
+  container.appendChild(newItem);
+}
+
+x_pos = 100;
+y_pos = 120;
 redB.addEventListener("click", function () {
   red = (red + inc) % 255; // % 255 þýðir að við förum í 0 þegar við komumst upp í 256
   updateBackgroundColor();
+  redB.style.position = "absolute";
+  redB.style.left = x_pos + "px";
+  redB.style.top = y_pos + "px";
 });
 
 greenB.addEventListener("click", function () {

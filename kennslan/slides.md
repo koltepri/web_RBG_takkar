@@ -165,5 +165,3 @@ blueB.addEventListener("click", function () {
 - Skýrt / Auðskiljanlegt?
   - breytunöfnin
 - Athugasemdir(e. comments), of mikið?, of lítið?
-
-- https://tinyurl.com/58xdyrxm (sameiginlegt docs skjal)
